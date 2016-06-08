@@ -1,4 +1,4 @@
-package com.joyapp.androidmaterialdesign.activity;
+package com.joyapp.androidmaterialdesign.activity.fragment;
 
 import android.content.Context;
 import android.os.Bundle;

@@ -1,10 +1,10 @@
 package com.joyapp.androidmaterialdesign.activity;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -13,7 +13,10 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.joyapp.androidmaterialdesign.R;
-
+import com.joyapp.androidmaterialdesign.activity.fragment.FragmentDrawer;
+import com.joyapp.androidmaterialdesign.activity.fragment.HomeFragment;
+import com.joyapp.androidmaterialdesign.activity.fragment.NotificationFragment;
+import com.joyapp.androidmaterialdesign.activity.fragment.TabsFragment;
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
 
     private Toolbar mToolbar;
@@ -72,14 +75,17 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 fragment = new HomeFragment();
                 title = getString(R.string.title_home);
                 break;
-//            case 1:
-//                fragment = new FriendsFragment();
-//                title = getString(R.string.title_friends);
-//                break;
-//            case 2:
-//                fragment = new MessagesFragment();
-//                title = getString(R.string.title_messages);
-//                break;
+            case 1:
+                Intent i = new Intent(this, TabActivity.class);
+                startActivity(i);
+
+//                fragment = new TabsFragment();
+//                title = "Tabs";
+                break;
+            case 2:
+                fragment = new NotificationFragment();
+                title = "Notification";
+                break;
             default:
                 break;
         }

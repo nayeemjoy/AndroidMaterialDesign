@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.fragment.HomeFragment">
+    tools:context=".activity.fragment.NotificationFragment">
 
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="45dp"
-        android:text="HOME"
+        android:text="NOTIFICATION"
         android:textStyle="bold"/>
 
 
