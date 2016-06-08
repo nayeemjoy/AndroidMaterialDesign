@@ -1,4 +1,4 @@
-package com.joyapp.androidmaterialdesign;
+package com.joyapp.androidmaterialdesign.activity;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.joyapp.androidmaterialdesign.R;
 
 public class MainActivity extends AppCompatActivity{
     private Toolbar mToolbar;
