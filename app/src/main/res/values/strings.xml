@@ -8,17 +8,26 @@
     <string name="nav_item_home">Home</string>
     <string name="nav_item_tabs">Tabs</string>
     <string name="nav_item_notifications">Notifications</string>
+    <string name="nav_item_google_map">Google Map</string>
+    <string name="nav_item_gps">GPS</string>
+    <string name="nav_item_facebook_login">Facebook Login</string>
 
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_tabs</item>
         <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_google_map</item>
+        <item>@string/nav_item_gps</item>
+        <item>@string/nav_item_facebook_login</item>
     </string-array>
 
-    <string name="title_messages">Messages</string>
-    <string name="title_friends">Friends</string>
     <string name="title_home">Home</string>
+    <string name="title_tabs">Tabs</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_google_map">Google Map</string>
+    <string name="title_gps">GPS</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
