@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.joyapp.androidmaterialdesign.R;
 import com.joyapp.androidmaterialdesign.activity.fragment.FragmentDrawer;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this,"Back Button Pessed",Toast.LENGTH_SHORT).show();
             return true;
         }
 
@@ -70,13 +72,14 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
     private void displayView(int position) {
         Fragment fragment = null;
         String title = getString(R.string.app_name);
+        Intent i;
         switch (position) {
             case 0:
                 fragment = new HomeFragment();
                 title = getString(R.string.title_home);
                 break;
             case 1:
-                Intent i = new Intent(this, TabActivity.class);
+                i = new Intent(this, TabActivity.class);
                 startActivity(i);
 
 //                fragment = new TabsFragment();
@@ -85,6 +88,27 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
             case 2:
                 fragment = new NotificationFragment();
                 title = "Notification";
+                break;
+            case 3:
+                i = new Intent(this, GoogleMapActivity.class);
+                startActivity(i);
+
+//                fragment = new TabsFragment();
+//                title = "Tabs";
+                break;
+            case 4:
+                i = new Intent(this, GPSActivity.class);
+                startActivity(i);
+
+//                fragment = new TabsFragment();
+//                title = "Tabs";
+                break;
+            case 5:
+                i = new Intent(this, FacebookLoginActivity.class);
+                startActivity(i);
+
+//                fragment = new TabsFragment();
+//                title = "Tabs";
                 break;
             default:
                 break;

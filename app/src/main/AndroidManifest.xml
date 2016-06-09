@@ -17,7 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TabActivity"></activity>
+        <activity android:name=".activity.TabActivity" />
+        <activity android:name=".activity.GoogleMapActivity" />
+        <activity android:name=".activity.GPSActivity" />
+        <activity android:name=".activity.FacebookLoginActivity"></activity>
     </application>
 
 </manifest>
