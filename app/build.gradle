@@ -30,4 +30,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:9.0.2'
     compile 'com.google.android.gms:play-services-location:9.0.2'
 
+//    Volly Library
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+
 }
