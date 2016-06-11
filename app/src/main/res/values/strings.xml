@@ -11,6 +11,7 @@
     <string name="nav_item_google_map">Google Map</string>
     <string name="nav_item_gps">GPS</string>
     <string name="nav_item_facebook_login">Facebook Login</string>
+    <string name="nav_item_feed_example">Feed Example</string>
 
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
@@ -20,6 +21,7 @@
         <item>@string/nav_item_google_map</item>
         <item>@string/nav_item_gps</item>
         <item>@string/nav_item_facebook_login</item>
+        <item>@string/nav_item_feed_example</item>
     </string-array>
 
     <string name="title_home">Home</string>
@@ -27,6 +29,8 @@
     <string name="title_notification">Notification</string>
     <string name="title_google_map">Google Map</string>
     <string name="title_gps">GPS</string>
+    <string name="title_facebook_login">GPS</string>
+    <string name="title_feed_example">GPS</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -92,23 +92,18 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
             case 3:
                 i = new Intent(this, GoogleMapActivity.class);
                 startActivity(i);
-
-//                fragment = new TabsFragment();
-//                title = "Tabs";
                 break;
             case 4:
                 i = new Intent(this, GPSActivity.class);
                 startActivity(i);
-
-//                fragment = new TabsFragment();
-//                title = "Tabs";
                 break;
             case 5:
                 i = new Intent(this, FacebookLoginActivity.class);
                 startActivity(i);
-
-//                fragment = new TabsFragment();
-//                title = "Tabs";
+                break;
+            case 6:
+                i = new Intent(this, FeedActivity.class);
+                startActivity(i);
                 break;
             default:
                 break;
